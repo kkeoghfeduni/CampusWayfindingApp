@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en" >
+<meta charset="UTF-8" />
+<title>SVG to GeoJSON hacky workaround</title>
+<script src="svg-to-geojson/dist/svg-to-geojson.min.js"></script>
+<style>span{display:none}#snackbar{visibility:hidden;min-width:250px;margin-left:-125px;background-color:#333;color:#fff;text-align:center;border-radius:2px;padding:16px;position:fixed;z-index:1;left:50%;bottom:30px;font-size:17px}#snackbar.show{visibility:visible;-webkit-animation:fadein .5s,fadeout .5s 2.5s;animation:fadein .5s,fadeout .5s 2.5s}@-webkit-keyframes fadein{from{bottom:0;opacity:0}to{bottom:30px;opacity:1}}@keyframes fadein{from{bottom:0;opacity:0}to{bottom:30px;opacity:1}}@-webkit-keyframes fadeout{from{bottom:30px;opacity:1}to{bottom:0;opacity:0}}@keyframes fadeout{from{bottom:30px;opacity:1}to{bottom:0;opacity:0}}
+</style>
+</head>
+<body>
+<textarea id="output" name="output" rows="4" cols="50">Blank</textarea>
+<div id="snackbar">Copied the text..</div>
+<span>
+<script>
+var geoJson = "";
+</script>
+<!-- svg file here <svg id="mysvg"-->
+<script>
+var temp = null;
+var temp = svgtogeojson.svgToGeoJson([[143.891121, -37.626194],[144.891121, -38.626194]], document.getElementById('*INPUTFILENAME*'), 3);
+document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + "%Split%*INPUTFILENAME*%Split%" + JSON.stringify(temp);
+
+/*NEXTTAG*/
+</script>
+</span>
+<script>
+function snackbar() {
+  var x = document.getElementById("snackbar");
+  x.className = "show";
+  setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+}
+
+function copyTextarea() {
+  var copyText = document.getElementById("output");
+
+  copyText.focus();
+  copyText.select();
+  copyText.setSelectionRange(0, 9999999)
+  document.execCommand("copy");
+
+  window.close();
+  var win = window.open("about:blank", "_self");
+  win.close();
+}
+</script>
+<button id="mybutton" onclick="copyTextarea()">Click me, I am a hacky workaround!</button>
+</body>
+</html>

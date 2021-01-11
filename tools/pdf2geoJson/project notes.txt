@@ -1,0 +1,160 @@
+https://gis.stackexchange.com/questions/161815/methods-to-convert-svg-file-to-geojson
+https://gdal.org/download.html
+https://anaconda.org/conda-forge/gdal
+https://trac.osgeo.org/osgeo4w/
+https://gis.stackexchange.com/questions/30559/computing-parameters-for-qgis-affine-transformation?lq=1
+https://gis.stackexchange.com/questions/161815/methods-to-convert-svg-file-to-geojson/245085#245085
+https://geojson.io/#map=2/20.0/0.0
+http://geojson.tools/
+
+ jalios /
+pdf2svg-windows 
+https://github.com/jalios/pdf2svg-windows/releases
+
+
+
+.jalios.com Configure  Document Viewer Plugin 
+
+https://stackoverflow.com/questions/10288065/convert-pdf-to-clean-svg
+
+
+
+B:\pdf2geoJason\inkscape\bin
+
+inkscape input.pdf -pipe -export-plain-svg=output.svg 
+
+https://stackoverflow.com/questions/10288065/convert-pdf-to-clean-svg
+
+http://svg.enshrined.co.uk/
+
+http://www.eva.hi-ho.ne.jp/tokada/map/svg_to_geojson/index.htm
+
+this
+https://stackoverflow.com/questions/10288065/convert-pdf-to-clean-svg
+
+http://svg.enshrined.co.uk/
+
+http://www.eva.hi-ho.ne.jp/tokada/map/svg_to_geojson/index.htm
+
+https://github.com/davecranwell/svg-to-geojson
+
+php ../svg-sanitizer/src/svg-scanner.php "../FP-MTH B level 9.svg"
+
+http://geojson.tools/
+
+
+https://jsonlint.com/
+
+
+https://github.com/davecranwell/svg-to-geojson
+
+
+B:\pdf2geoJason
+
+
+https://github.com/seleniumhq/selenium
+https://stackoverflow.com/questions/10671978/execute-html-javascript-from-command-line
+
+
+http://www.mikechambers.com/blog/2003/12/06/shell-scripting-on-os-x-with-ecma-javascript/
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Shell
+
+
+java jline.ConsoleRunner org.mozilla.javascript.tools.shell.Main Hello-World.js 
+Hello World
+
+
+java -jar buildGradle/libs/rhino-1.7.12.jar -debug -version 200
+
+
+B:\pdf2geoJason
+
+
+$ java jline.ConsoleRunner org.mozilla.javascript.tools.shell.Main Hello-World.js
+
+java -jar rhino-1.7.12.jar org.mozilla.javascript.tools.shell.Main Hello-World.js
+
+B:\pdf2geoJason\Hello-World.js
+
+java -jar rhino-1.7.12.jar B:\pdf2geoJason\Hello-World.js
+
+
+B:\pdf2geoJason\node\node
+
+
+B:\pdf2geoJason\hello.js
+
+
+SVGPathElement.prototype.getPathData,SVGPathElement.prototype.setPathData
+
+
+
+
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_copy_clipboard
+
+https://stackoverflow.com/questions/128463/use-clipboard-from-vbscript
+
+https://www.codeproject.com/Questions/1217566/Copy-clipboard-contents-to-string-vbscript
+
+Hello World
+
+https://stackoverflow.com/questions/54139677/vba-in-excel-ie-runtime-and-windows-security-warning-pop-up
+
+https://thycotic.force.com/support/s/article/Stop-the-Internet-Explorer-message-Do-you-want-to-allow-this-webpage-to-access-your-Clipboard
+
+
+https://www.softwareok.com/?seite=faq-System-General&faq=26
+
+http://zeroclipboard.github.io/
+
+Just because you can doesn't mean you should — clipboard.js
+
+button
+
+function writeToClipboard(text) {
+  navigator.clipboard.writeText(text).then(
+    result => {
+      console.log("Successfully copied to clipboard", result)
+    }
+  )
+  .catch(
+  err => {
+    console.log("Error! could not copy text", err)
+  })
+}
+
+Hello! I got Copied
+
+
+
+
+var temp = svgtogeojson.svgToGeoJson([[143.891121, -37.626194],[144.891121, -38.626194]], document.getElementById('*INPUTFILENAME*'), 3);
+document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + "%Split%*INPUTFILENAME*%Split%" + JSON.stringify(temp);
+
+
+/*NEXTTAG*/
+
+B:\pdf2geoJason
+
+cscript svg-to-geojson-fromjshtml.vbs -append "FP-MTH B Level 0_cleaned.svg"
+
+
+var temp = null;
+var temp = svgtogeojson.svgToGeoJson([[143.891121, -37.626194],[144.891121, -38.626194]], document.getElementById('*INPUTFILENAME*'), 3);
+document.getElementById("output").innerHTML = document.getElementById("output").innerHTML + "%Split%*INPUTFILENAME*%Split%" + JSON.stringify(temp);
+
+
+
+java -jar rhino-1.7.12.jar B:\pdf2geoJason\svg-to-geojson-rhino.js
+node.exe B:\pdf2geoJason\svg-to-geojson-node.js
+php ../svg-sanitizer/src/svg-scanner.php "testfile.svg"
+
+B:\pdf2geoJason\testfile.svg
+
+
+https://stackoverflow.com/questions/10288065/convert-pdf-to-clean-svg
+
+B:\pdf2geoJason\rhino
+
+java -jar rhino-1.7.12.jar B:\pdf2geoJason\svg-to-geojson-rhino.js
