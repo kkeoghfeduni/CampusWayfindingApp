@@ -1,0 +1,59 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "shape": "Line",
+            "name": "Unnamed Layer",
+            "category": "default",
+            "level": [0, 1, 2]
+        },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [143.890445, -37.627522],
+                [143.891309, -37.62776],
+                [143.891374, -37.627688],
+                [143.891953, -37.627747],
+                [143.891905, -37.627922],
+                [143.891277, -37.627832],
+                [143.891213, -37.627917],
+                [143.890381, -37.627688],
+                [143.890451, -37.627526]
+            ]
+        },
+        "id": "0ea316fa-e42b-4f95-a4af-c27bc68c86a5"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "shape": "Line",
+            "name": "Unnamed Layer",
+            "category": "default",
+            "level": 1
+        },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [143.890587, -37.627561],
+                [143.890517, -37.627725]
+            ]
+        },
+        "id": "d23fd24a-b9db-493b-bd49-7408d5690f18"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "shape": "Line",
+            "name": "Unnamed Layer",
+            "category": "default",
+            "level": 2
+        },
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [143.890553, -37.62764],
+                [143.891277, -37.627832]
+            ]
+        },
+        "id": "a5616f4b-dc07-47ad-9d11-fcf93268bc0b"
+    }]
+}
