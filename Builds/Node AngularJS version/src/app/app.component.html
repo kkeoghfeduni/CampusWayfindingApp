@@ -1,0 +1,10 @@
+<img src="assets/FED_colour_logo_large.png"
+  width="300" height="70">
+
+  <h1>Mount Helen Campus Map</h1>
+
+<agm-map [latitude]="lat" [longitude]="lng" [zoom]="zoom">
+  <agm-data-layer 
+  *ngIf="geoJsonObject" [geoJson]="geoJsonObject"  [style]="styleFunc" >
+  </agm-data-layer>
+</agm-map>
